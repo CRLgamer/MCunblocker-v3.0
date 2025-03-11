@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpyPieMath Embed</title>
+  <head>
+    <script  type="text/javascript" src="https://codesandbox.io/public/sse-hooks/sse-hooks.e15ace8ccace5398a721ffec81f121de.js"></script>
+    <script  type="text/javascript" src="https://codesandbox.io/static/js/banner.d9cb10a38.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpyPieMath Fullscreen</title>
     <style>
-        /* Set body and html to ensure full-page layout */
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            width: 100%;
-        }
-        /* Make iframe fill the entire page */
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
     </style>
-</head>
-<body>
-    <iframe src="https://spypiemath.pages.dev/"></iframe>
-</body>
+  </head>
+  <body>
+    <iframe src="https://spypiemath.pages.dev" allowfullscreen></iframe>
+    <script crossorigin type="text/javascript" src="https://codesandbox.io/static/js/watermark-button.eeb14a97b.js"></script>
+  </body>
 </html>
